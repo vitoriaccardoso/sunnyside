@@ -52,5 +52,56 @@ header h1{
 }
 header .arrow-down{
     place-self: start center;
+}
+
+.info img{
+    width: 100%;
+
 
 }
+
+.description{
+    display: grid;
+    padding: 64px 0px;
+    place-items: center;
+    height: 500px;
+}
+.description__title{
+    font-family: var(--title-font);
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    width: 300px;
+}
+.description__text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gray);
+    text-align: center;
+    line-height: 2rem;
+}
+.description__learn-more{
+    position: relative;
+    font-family: var(--title-font);
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+
+.line{
+    position: absolute;
+    left: -5%;
+    bottom: 1%;
+    height: 8px;
+    width: 110%;
+    z-index: -1;
+    opacity: .4;
+}
+
+.line-yellow{
+    background-color: var(--yellow);
+}
+
+
+

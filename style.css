@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --text-font: 'Barlow', sans-serif;
+    --title-font: 'Fraunces', serif;
+    --red: #fe7867;
+    --yellow: #fad400;
+    --gray: #a7abae;
+    --white: #ffffff;
+    --graphic-text: #25564b;
+    --photography-text: #19536b;
+    --footer: #458c7e;
+    --background-color: #FFFBF8;
+}
+body{
+    font-family: var(--text-font);
+    background-color: var(--background-color);
+}
+header{
+    height: 80vh;
+    background-image: url(./images/mobile/image-header.jpg);
+    background-position: bottom;
+    background-size: cover;
+    color: var(--white);
+    padding: 32px 16px;
+    display: grid;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+header h1{
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    place-self: center;
+    text-align: center;
+}
+header .arrow-down{
+    place-self: start center;
+
+}
